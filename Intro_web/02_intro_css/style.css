@@ -1,0 +1,22 @@
+/*Selectro de etiqueta*/
+body {
+background-color: #339f9f;
+
+}
+
+p {
+color: aliceblue;
+font-size: 25px;
+font-weight: bolder;
+
+}
+a{
+
+color: blueviolet;
+font-size: 25px;
+text-decoration: none;
+
+}
+.rojo{ 
+    color: crimson;
+}

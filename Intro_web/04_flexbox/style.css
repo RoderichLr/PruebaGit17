@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 100%;
+}
+html {
+    height: 100%;
+}
+
+.padre_1{
+    background-color: rgb(213, 3, 245);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.padre_2{
+    background-color: rgb(3, 98, 250);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.hijo{
+    background-color:  rgb(0, 255, 110) ;
+    height:30% ;
+    width: 30%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.hijo_2{
+    background-color:  rgb(252, 235, 0);
+    height:30% ;
+    width: 30%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.nieto{
+background-color: black;
+   
+    height:15% ;
+    width: 15%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
