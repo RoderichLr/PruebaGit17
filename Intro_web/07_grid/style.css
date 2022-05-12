@@ -1,0 +1,22 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    background-color: rgb(172, 77, 96);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-item{
+    background-color: rgb(237, 114, 114);
+    border: 2px solid #151e3f;
+    padding:  20px;
+    font-size:  30px;
+    text-align: center;
+    color: antiquewhite;
+}
