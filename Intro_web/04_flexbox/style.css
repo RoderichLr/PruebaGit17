@@ -1,55 +1,25 @@
-body{
+
+
+ /* El contenedor mayor es el que va a indicar
+    la posicion de los elementos de su interior
+ */
+.main  {
+    border: 2px solid black;
+    height: 500px;
+    /* width: 500px; */
+    /* Primer paso es usar display: flex  */
     display: flex;
-    justify-content:space-around;
+    /* mover lo elementos en el  eje x u horizontal */
+    justify-content: flex-end;
+    /* mover los elementos en el eje y o vertical  */
     align-items: center;
-    min-height: 100%;
-}
-html {
-    height: 100%;
+    /* cammbiar los elementos de fila a columna  e invierte nuestros ejes */
+    flex-direction: column;
 }
 
-.padre_1{
-    background-color: rgb(213, 3, 245);
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    flex-direction: column;
-}
-.padre_2{
-    background-color: rgb(3, 98, 250);
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-   
-}
-.hijo{
-    background-color:  rgb(0, 255, 110) ;
-    height:30% ;
-    width: 30%;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    flex-direction: column;
-}
-.hijo_2{
-    background-color:  rgb(252, 235, 0);
-    height:30% ;
-    width: 30%;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    
-}
-.nieto{
-background-color: black;
-   
-    height:15% ;
-    width: 15%;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+
+.secudary {
+    border: 2px red solid;
+    width: 25%;
+    height: 25%;
 }

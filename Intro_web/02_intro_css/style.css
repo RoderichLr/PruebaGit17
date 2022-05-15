@@ -1,22 +1,38 @@
-/*Selectro de etiqueta*/
-body {
-background-color: #339f9f;
 
+/* selector de etiqueta */
+
+body {
+    background-color: #256976;
 }
 
 p {
-color: aliceblue;
-font-size: 25px;
-font-weight: bolder;
-
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
 }
-a{
 
-color: blueviolet;
-font-size: 25px;
-text-decoration: none;
-
+img {
+    /* height: 300px; */
+    width: 300px;
 }
-.rojo{ 
-    color: crimson;
+
+a {
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* selector de tipo clase */
+
+.rojo {
+    color: red;
+}
+
+
+#especial {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-size: 20px;
+    font-weight: lighter;
 }
